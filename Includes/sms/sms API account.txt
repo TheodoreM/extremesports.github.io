@@ -1,0 +1,11 @@
+www.spryng.nl
+username: spyrosf
+pwd: #Sf11091968!
+
+
+Με αυτό ασχολούμαι:
+https://www.suresms.com
+ProgressIT
+ehJ6PVNP
+
+https://api.suresms.com/Script/SendSMS.aspx?login=ProgressIT&password=ehJ6PVNP&to=+306945889609&Text=A good start. Καλημέρα.&url=http://www.mydomain.com/response

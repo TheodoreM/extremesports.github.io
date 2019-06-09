@@ -1,0 +1,343 @@
+body {
+	background-color: #f8f4f4;
+    /*background-image: url("../Images/siteback.jpg");*/
+    font-family: 'Segoe UI', Verdana;
+}
+
+#MasterTable {
+    width: 1100px;
+    border: 1px;
+    margin-left: auto;
+    margin-right:  auto;
+}
+
+#InfoTable
+{
+    width: 1000px;
+    border-width:  2px;
+    margin-left: calc((100% - 1094px) / 2);
+    margin-bottom: 20px;
+    background-color: #e5fda7;
+    border-radius: 12px;
+    -moz-box-shadow: 0 0 10px 5px #999;
+    -webkit-box-shadow: 0 0 10px 5px #999;        
+}
+
+h1
+{
+  font-family: 'Segoe UI', Verdana;
+  color: #2e3335;
+  font-size: 20pt;    
+  margin-top: 0pt;
+  font-weight: normal;
+}
+
+h2
+{
+  font-family: 'Segoe UI', Verdana;
+  color: #2e3335;
+  font-size: 12pt; 
+  font-weight:  normal;   
+  text-align: left;
+  margin-top: 0pt;
+}
+
+h4
+{
+  font-family: 'Segoe UI', Verdana;
+  color: #fff;
+  font-size: 14pt; 
+  font-weight:  normal;   
+  text-align: left;
+  margin-top: 12pt;
+}
+
+p
+{
+  font-family: 'Segoe UI', Verdana;
+  color: #2e3335;
+  font-size: 10pt;  
+  line-height: 1.6em;
+  margin-bottom: 1.2em;
+}
+
+li.areas
+{
+    font-size: 10pt;
+    color: #2e3335;
+}
+td
+{
+  font-family: 'Segoe UI', Verdana;
+  font-size: 8pt;    
+  color: #fff;
+}
+
+resultrow {
+  font-family: 'Segoe UI', Verdana;
+  font-size: 8pt;
+}
+
+.inner 
+{
+    margin-left: 0px; 
+    height: 300px; 
+    background-color: transparent; 
+    overflow-y: auto;
+}
+
+.rootIconDIV {
+    width: 200px;
+    height: 200px;
+    padding:  0px;
+    margin-left: 20px;
+    float:  left;
+    top: 30px;
+    left: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #fff;  
+}
+
+.rootIconDIV2 {
+    width: 100px;
+    height: 100px;
+    padding:  0px;
+    margin-left: 20px;
+    /*float:  left; */
+    display:  inline-block;
+    top: 30px;
+    left: 60px;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  #fff;  
+}
+
+.rootDataDIV {
+    width: 250px;
+    height: 300px;
+    padding:  20px;
+    margin: 20px;
+    position:  static;
+    float:  left;
+    top: 30px;
+    left: 750px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #fff;
+    background-color: #fff;
+    overflow-y: auto;
+    border-radius: 12px;
+    -moz-box-shadow: 0 0 10px 5px #999;
+    -webkit-box-shadow: 0 0 10px 5px #999;    
+}
+
+.rootTextDIV {
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+    padding:  20px;
+    margin: 20px;
+    float:  left;
+    top: 30px;
+    left: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #fff;
+    overflow-y: auto;
+    border-radius: 12px;
+    -moz-box-shadow: 0 0 10px 5px #999;
+    -webkit-box-shadow: 0 0 10px 5px #999;
+}
+
+/* Μορφοποίηση των διαδοχικών γραμμών του κεντρικού πίνακα σελίδας */
+
+.headingrow
+{
+    height:  94px;
+    /* background-image: url(Images/Heading.png);  */
+}
+
+.sliderrow
+{
+    height:  560px;
+    padding: 0;
+    margin:  0px;
+    background-image: url(../Images/Slider.png);
+    background-repeat: no-repeat;
+}
+
+.selectionsrow
+{
+    height:  390px;
+    margin:  0px;
+    background-image: url(Images/Selections.png);
+}
+
+/* Μορφοποίηση πίνακα δεδομένων χώρας (1η σελίδα) */
+.InfoTable {
+    width:  100%;
+    border:  0;
+}
+
+.data
+{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 10pt;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.ItemData
+{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 10pt;
+    line-height: 130%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.smallicon
+{
+    width:  16px;
+}
+.white
+{
+    color:  white;
+}
+
+.DataCaption
+{
+    margin-left: 0px;
+    margin-bottom: 8px;
+    line-height: 1em;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: left;
+}
+.DataCaptionMin
+{
+    margin-left: 0px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    line-height: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+td#Results
+{
+    vertical-align:  top;
+}
+
+table#Data
+{
+    color:  #333;
+    border: 0px;
+}
+
+td#LogoImage
+{
+    padding: 12px;
+    vertical-align: top;
+    background-color: transparent;
+    width:  120px;
+}
+
+td#DataArea
+{
+    padding: 12px;
+    padding-top: 0px;
+    vertical-align: top;
+    background-color: transparent;
+    width:  250px;
+}
+
+td#ThumbnailArea
+{
+    padding: 12px;
+    vertical-align: top;
+    background-color: transparent;
+    width:  480px;
+}
+
+img.Logo
+{
+    border: 6px;
+    vertical-align: top;
+    border-color: #e5dfd9;
+    border-style: solid;
+    height: 70px;
+    margin-bottom: 4px;
+    margin-right: 1px;
+}
+
+td#SliderImage
+{
+    vertical-align: top;
+    background-color: transparent;
+    width:  960px;
+}
+
+td#IconStripe
+{
+    
+    padding: 0px;
+    vertical-align: top;
+    background-color: transparent;
+    width:  16%;
+}
+
+#InfoClass
+{
+    display:  inline-block; 
+}
+
+#InfoClass:hover
+{
+    border-width: 0px;
+    border-style: solid;
+    border-color: #999;
+}
+
+a.IconRef
+{
+    display:  inline-block; 
+    border-style: solid;
+    border-width: 4px;
+    border-color: #e5dfd9;
+    margin: 0;
+    padding:  0;
+}
+
+a.IconRef:hover
+{
+    display:  inline-block; 
+    border-width: 4px;
+    border-style: solid;
+    border-color: #999;
+    margin: 0;
+    padding:  0;
+}
+
+a
+{
+    color: #2e3335;
+    text-decoration: none;
+    font-family: 'Segoe UI', Verdana;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+a.navwhite:link { text-decoration: none; color: #ffffff; font-family: 'Segoe UI', Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; }
+a.navwhite:visited { text-decoration: none; color: #ffffff; font-family: 'Segoe UI', Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; }
+a.navwhite:hover { text-decoration: underline; color: #ffffff; font-family: 'Segoe UI', Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; }
+a.navblack:link { text-decoration: none; color: #000000; font-family: 'Segoe UI', Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; }
+a.navblack:visited { text-decoration: none; color: #000000; font-family: 'Segoe UI', Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; }
+a.navblack:hover { text-decoration: underline; color: #000000; font-family: 'Segoe UI', Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; }
